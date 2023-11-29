@@ -1,0 +1,20 @@
+
+
+@media (min-width: 361px) {
+    
+    main {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .sub-main {
+        width: 45%;
+        margin: 0 auto;
+    }
+
+    .sub-main-descripcion {
+        padding: 0;
+        font-size: 12px;
+    }
+
+}

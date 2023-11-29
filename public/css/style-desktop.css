@@ -1,0 +1,98 @@
+
+
+
+
+
+@media (min-width: 769px) {
+    a {
+        text-decoration: none;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+
+    header .contenedor-header {
+        max-width: 1200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        height: 200px;
+    }
+
+    .btn-buscar input {
+        height: 30px;
+    }
+
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    nav ul {
+        display: flex;
+        gap: 20px;
+    }
+
+    nav ul li {
+        text-decoration: none;
+        list-style: none;
+        font-size: 20px;
+        background-color: #d8be28;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    nav ul li a {
+        color: #000000;
+    }
+
+    main {
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+
+    .sub-main {
+        width: 23%;
+    }
+
+    .sub-main:hover .fa-truck{
+        transform: translateX(200%) rotate(-360deg)
+    }
+  
+    .secciones-footer {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        font-size: 18px;
+    }
+    
+    .secciones-footer section {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .secciones-footer section:hover {
+        background-color: #ebebeb;
+        box-shadow: 0px 0px 10px #5a5656;
+        transition: 0.5s all;
+    }
+
+    footer section .copyright{
+        text-align: center;
+        font-size: 18px;
+        margin: 15px;
+    }
+
+    .form-container {
+        max-width: 1200px;
+    }
+
+    .form-container input {
+        padding: 20px;
+    }
+}

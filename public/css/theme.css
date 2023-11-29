@@ -1,0 +1,58 @@
+html,
+body {
+  font-family: 'Roboto',sans-serif;
+  background-color: #ebebeb;
+  font-size: 12px;
+}
+
+.logo {
+  width: 50%;
+}
+
+nav {
+  display: none;
+}
+
+header {
+  font-size: 12px;
+  color: black;
+  padding: 20px;
+}
+
+.bg-yellow {
+  background-color: #EAC926;
+}
+
+.bg-light-gray {
+  background-color: #ebebeb;
+}
+
+.color-green {
+  color: #39b54a;
+}
+
+.font-heading {
+  font-size: 24px;
+}
+
+.font-sixteen {
+  font-size: 16px;
+}
+
+.texto-centrado {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.w50{
+  width: 50%;
+}
+
+.bold {
+  font-weight: bold;
+}
+
